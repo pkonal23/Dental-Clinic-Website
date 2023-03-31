@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">soft landing</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("active");
+        }
+
+    </script>
+    <div class="container">
+        <div class="about">
+            <h2>About Our Doctors</h2>
+
+            <div class="content">
+                <img src="doc.jpg" alt="">
+                <div class="text">
+                    <h1>About the <br> Doctor</h1> <br>
+
+                    <p> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolore fugit inventore
+                        praesentium officiis mollitia a impedit maiores modi aliquid deleniti quod expedita dolor
+                        perferendis nulla totam in magni? Eveniet?</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

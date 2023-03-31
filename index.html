@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Dental Clinic</a> </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("active");
+        }
+
+    </script>
+    
+    <div class="container">
+        <div class="content">
+            <h1>Medicine cure diseases but <br> Only doctors can cure patients. <br><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, error!</p>
+            </h1>
+
+
+            <img src="o.jpg" alt="" class="vimg">
+        </div>
+        <div class="but">
+            <a href="contact.html" class="btn">Consult Now</a>
+        </div>
+    </div>
+</body>
+
+</html>
